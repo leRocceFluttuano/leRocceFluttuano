@@ -45,6 +45,16 @@ a:hover {
   text-align: center;
 }
 
+#home{
+  position: absolute;
+  z-index: 3;
+
+  width: 30%;
+  left: 35%;
+  top: 5%;
+  text-align: center;
+}
+
 #github{
   position: absolute;
   z-index: 3;
@@ -53,4 +63,63 @@ a:hover {
   left: 65%;
   top: 5%;
   text-align: right;
+}
+
+
+
+
+#box1{
+  position: absolute;
+  z-index: 3;
+
+  top: 15%;
+  height: 15%;
+  width: 100%;
+}
+
+#box2{
+  position: absolute;
+  z-index: 3;
+
+  top: 30%;
+  height: 35%;
+  width: 100%;
+}
+
+#box3{
+  position: absolute;
+  z-index: 3;
+
+  top: 65%;
+  height: 35%;
+  width: 100%;
+}
+
+
+#step1{
+  position: absolute;
+  left: 60%;
+}
+
+#step2{
+  position: absolute;
+  left: 10%;
+  width: 90%;
+}
+#step2Details{
+  position: absolute;
+  padding-top: 1vw;
+  left: 10%;
+}
+
+#step3{
+  position: absolute;
+  left: 20%;
+  width: 80%;
+}
+#step3Details{
+  position: absolute;
+  padding-top: 1vw;
+  left: 10%;
+  width: 100%;
 }
