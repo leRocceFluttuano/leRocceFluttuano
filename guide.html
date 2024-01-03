@@ -42,7 +42,7 @@
 
             <div id = 'box2' onmouseenter = 'mouseOver2()' onmouseleave = 'mouseOut2()'>
                 <div id = 'step2'>
-                    II. in the 'layout' workspace set the geometry nodes modifier values (1)
+                    II. in the 'layout' workspace set the geometry nodes modifier values
                     <div id = 'step2Details'>
                         - the seed parameter alters the values of the three extrusions that shape the rock model<br>
                         - the level parameter defines the steps of subdivision (the lower, the smoother)<br>
@@ -52,30 +52,33 @@
             </div>
 
 
-            <div id = 'box3' onmouseenter = 'mouseOver3()' onmouseleave = 'mouseOut3()'>
+            <div id = 'box3' onmouseenter = 'mouseOver3()' onmouseleave = 'mouseOut3()' onclick = 'incrementCount()'>
                 <div id = 'step3'>
-                    III. the 'shading' workspace is divided in three areas: rock (A), moss (B) and mix factor (C)<br>
+                    III. the 'shading' workspace is divided in three areas: rock, moss and mix factor<br>
                     <div id = 'step3Details'>
-                        in the 'rock' section it is possible to manipulate
+                        in the first section it is possible to manipulate
                         <div style = 'padding-left: 10vw;'>
-                            - the scale of the rock texture (2)<br>
-                            - the scale of the displacement texture (3)<br>
-                            - the color palette of the rock (4)
+                            - the scale of the rock texture<br>
+                            - the scale of the displacement texture<br>
+                            - the color palette of the rock
                         </div>
                         <br>
-                        in the 'moss' section it is possible to manipulate
+                        in the second section it is possible to manipulate
                         <div style = 'padding-left: 10vw;'>
-                            - the scale of the moss texture (5)<br>
-                            - the color palette of the moss (6)
+                            - the scale of the moss texture<br>
+                            - the color palette of the moss
                         </div>
                         <br>
-                        in the 'mix factor' section it is possible to manipulate
+                        in the third section it is possible to manipulate
                         <div style = 'padding-left: 10vw;'>
-                            - the scale of the moss mask (7)
+                            - the scale of the moss mask
                         </div>
                 </div>
             </div>
+        </div>
 
+        <div id = 'box4'>
+            check the full documentation in the <a href = 'https://github.com/rocceFluttuano/leRocceFluttuano/tree/main'> github repository </a>
         </div>
     </div>
 </body>
