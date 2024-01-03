@@ -10,7 +10,10 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
+  canvas.style('z-index', '1');
+
   color1 = color(255);
   color2 = color(120, 190, 255);
 
@@ -18,12 +21,16 @@ function setup() {
   fontSpacing = windowWidth / 10;
   textSize(fontSize);
 
-  video.position(windowWidth / 2 - 540, windowHeight / 2 - 540);
+  video.style('z-index', '1');
+  if (windowWidth < 1000) {
+    video.size(1080 / 2, 1080 / 2);
+  } else {
+    video.size(1080, 1080);
+  }
+  video.position(windowWidth / 2 - video.width / 2, windowHeight / 2 - video.height / 2);
 }
 
 function draw() {
-  setGradient(0, 0, windowWidth, windowHeight, color1, color2);
-
   noStroke();
   fill(255, 255, 255, 255);
 
@@ -79,4 +86,19 @@ function setGradient(x, y, w, h, c1, c2){
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  updateDimensions();
+}
+
+function updateDimensions() {
+  clear();
+  fontSize = windowWidth / 20;
+  fontSpacing = windowWidth / 10;
+  textSize(fontSize);
+
+  if (windowWidth < 1000) {
+    video.size(1080 / 2, 1080 / 2);
+  } else {
+    video.size(1080, 1080);
+  }
+  video.position(windowWidth / 2 - video.width / 2, windowHeight / 2 - video.height / 2);
 }
