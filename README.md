@@ -29,6 +29,24 @@ the *shading* workspace is divided into three main areas: rock (A), moss (B) and
 7. the *scale* value of the *voronoi texture* defines the scale of the procedural texture used as a mask for the mossy areas
 
 ![picture alt](media/Guide_5_shader_mix.png)  
+- - - -
+  
+# book  
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale3.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale2.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale4.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale5.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale6.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale7.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale8.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale9.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale10.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale11.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale12.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale13.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale14.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale15.png)
+![picture alt](media/Le_rocce_fluttuano_con_una_grazia_surreale16.png)
 
 - - - -
   
