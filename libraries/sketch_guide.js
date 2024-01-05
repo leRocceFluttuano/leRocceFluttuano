@@ -2,8 +2,7 @@ let on2 = false;
 let on3 = false;
 let guide1, guide2, guide3, guide4, guide5;
 let count = 2;
-let guideWidth = 960;
-let guideHeight = 540;
+let guideWidth, guideHeight;
 
 function preload(){
   guide1 = loadImage('media/Guide_1_geo_nodes.png');
@@ -17,6 +16,9 @@ function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '1');
+
+  guideWidth = windowWidth / 2;
+  guideHeight = (guideWidth / 16) * 9;
 }
 
 function draw(){
@@ -62,4 +64,7 @@ function incrementCount(){
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+
+  guideWidth = windowWidth / 2;
+  guideHeight = (guideWidth / 16) * 9;
 }
