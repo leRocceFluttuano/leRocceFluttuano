@@ -57,6 +57,8 @@ a benedetta
 anna maria  
 ricciardi,  
   
-alle rocce,  
-alle metafore  
-
+tutte le rocce,  
+che potrà mai desiderare  
+  
+tutte le metafore,  
+che potrà mai desiderare
