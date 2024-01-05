@@ -89,8 +89,38 @@ a:hover {
   z-index: 3;
 
   width: 100%;
-  top: 50%;
-  text-align: center;
+  height: 20%;
+  top: 40%;
+}
+#dedication21{
+  position: relative;
+  left: 40%;
+}
+#dedication22{
+  position: relative;
+  left: 35%;
+}
+
+#dedication23{
+  position: relative;
+  padding-top: 5vw;
+  left: 5%;
+}
+
+#dedication24{
+  position: relative;
+  left: 10%;
+}
+
+#dedication25{
+  position: relative;
+  padding-top: 5vw;
+  left: 65%;
+}
+
+#dedication26{
+  position: relative;
+  left: 60%;
 }
 
 
@@ -172,6 +202,37 @@ a:hover {
   body,
   a {
   font-size: 80%;
+  }
+
+  #dedication21{
+    position: relative;
+    left: 30%;
+  }
+  #dedication22{
+    position: relative;
+    left: 25%;
+  }
+  
+  #dedication23{
+    position: relative;
+    padding-top: 20vw;
+    left: 5%;
+  }
+  
+  #dedication24{
+    position: relative;
+    left: 10%;
+  }
+  
+  #dedication25{
+    position: relative;
+    padding-top: 20vw;
+    left: 40%;
+  }
+  
+  #dedication26{
+    position: relative;
+    left: 30%;
   }
 
   #step1{
